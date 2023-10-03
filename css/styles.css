@@ -24,6 +24,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -193,6 +195,19 @@ img {
     padding: 120px 0 120px;
 }
 
+.section-two-icons{
+    display: flex;
+    gap: 24px;
+}
+
+.section-two-icon{
+    display: flex;
+    gap: 24px;
+    padding-left: 0;
+    background: #8E8F99;
+    border: #8E8F99 1px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -222,14 +237,6 @@ img {
     display: flex;
     gap: 24px;
     padding-left: 0;
-}
-
-.section-two-icon{
-    display: flex;
-    gap: 24px;
-    padding-left: 0;
-    background: #8E8F99;
-    border: #8E8F99 1px;
 }
 
 .section-two-itm {
@@ -362,6 +369,9 @@ img {
     padding: 100px 0 100px;
 }
 
+.footer-container{
+    margin-left: 70px;
+}
 .footer-fon-link {
     display: inline-block;
     color: #4D5AE5;
@@ -396,28 +406,30 @@ img {
     }
 
 .footer-social {
-    display: inline-flex;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
-    max-width: 100px;
+    }
+
+.social-cont{
+    display: flex;
+    gap: 16px;
 }
 
 .footer-icon {
     display:flex;
-    column-gap: 14px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .f-icon{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 24px;
-    height: 24px;
     border-radius: 10px;
 }
 
@@ -425,10 +437,10 @@ img {
     transition: fill 250ms ease-out;
 }
 
-.f-icon:hover{
+/*f-icon:hover{
     background-color: #2e2f42;
 }
 
 .f-icon:focus{
     background-color: #2e2f42;
-}
+}*/
