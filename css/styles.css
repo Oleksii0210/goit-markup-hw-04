@@ -198,6 +198,9 @@ img {
 .section-two-icons{
     display: flex;
     gap: 24px;
+    background-color:#8E8F99;
+    border: #8E8F99 1px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-two-icon{
@@ -237,10 +240,6 @@ img {
     display: flex;
     gap: 24px;
     padding-left: 0;
-}
-
-.section-two-itm {
-    width: calc((100% - 72px) / 4);
 }
 
 .section-two-card {
@@ -414,7 +413,7 @@ img {
     color: #FFFFFF;
     }
 
-.social-cont{
+.footer-social-icon{
     display: flex;
     gap: 16px;
 }
