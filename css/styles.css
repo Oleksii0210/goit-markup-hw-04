@@ -389,6 +389,10 @@ img {
     padding: 100px 0 100px;
 }
 
+.footer-container-footer{
+    margin-right: 120px;
+}
+
 .footer-fon-link {
     display: inline-block;
     color: #4D5AE5;
@@ -417,7 +421,8 @@ img {
     display: inline-block;
 }
 .container-social{
-    margin-left: 540px;
+    display: flex;
+    align-items: baseline;
 }
 .footer-social {
     font-size: 16px;
@@ -426,9 +431,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
     margin-top: -110px;
     margin-right: 120px;
-    margin-bottom: 16px;
     }
 
 .footer-social-icon{
@@ -444,8 +449,9 @@ img {
     width: 40px;
     height: 40px;
     background-color:#4d5ae5;
-    border-radius: 25px;
+    border-radius: 50%;
     fill:#4d5ae5;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon:hover,
