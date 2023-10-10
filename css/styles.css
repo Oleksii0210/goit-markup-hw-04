@@ -177,6 +177,7 @@ img {
     background-color: #4D5AE5;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-one-fon-button:hover,
@@ -318,16 +319,21 @@ img {
 
 .sect-three-icon{
     display: flex;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
     background-color:#4d5ae5;
-    border-radius: 25px;
-    fill:#4d5ae5;
+    border-radius: 50%;
     margin-top: 8px;
     margin-bottom: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.sect-three-ic{
+    fill: #f4f4fd;
+}
+
 
 /*section-four*/
 .section-four-fon {
