@@ -436,11 +436,11 @@ img {
     margin-right: 120px;
     }
 
-.footer-social-icon{
+ .container-social{
     display: flex;
     gap: 16px;
     align-items: baseline;
-}
+ }   
 
 .footer-icon{
     display: flex;
@@ -450,7 +450,7 @@ img {
     height: 40px;
     background-color:#4d5ae5;
     border-radius: 50%;
-    fill:#4d5ae5;
+    fill:#f4f4fd;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
