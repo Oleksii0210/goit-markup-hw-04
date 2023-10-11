@@ -80,6 +80,16 @@ img {
     color: #404bbf;
 }
 
+.studio::after{
+    content:"";
+    position: absolute; 
+    left: 0; 
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -314,6 +324,10 @@ img {
 .siction-three-icon{
     display: flex;
     gap: 24px;
+
+}
+.siction-three-icon:hover{
+background-color: ;
 }
 
 .sect-three-icon{
@@ -441,6 +455,11 @@ img {
     gap: 16px;
     align-items: baseline;
  }   
+
+ .footer-social-icon{
+    display: flex;
+    gap: 16px;
+ }
 
 .footer-icon{
     display: flex;
